@@ -1,7 +1,55 @@
-.row {
-  margin-bottom: 15px;
+* {
+	box-sizing: border-box;
 }
-.row > div {
-  border: 2px solid red;
-  background-color: gray;
+
+body {
+	margin: 15px;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.bordered {
+	margin: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 2px solid black;
+    background-color: gray;
+}
+
+.category-1 {
+	position: absolute;
+	right: 20px;
+	text-align: center;
+ 	background-color: red;
+ 	border: 2px solid black;
+ 	width: 150px;
+ 	margin-top: -2px;
+}
+
+.category-2 {
+	position: absolute;
+	right: 20px;
+	text-align: center;
+ 	background-color: yellow;
+ 	border: 2px solid black;
+ 	width: 150px;
+ 	margin-top: -2px;
+}
+
+.category-3 {
+	position: absolute;
+	right: 20px;
+	text-align: center;
+ 	background-color: blue;
+ 	border: 2px solid black;
+ 	width: 150px;
+ 	margin-top: -2px;
+}
+
+.bordered > p {
+	margin-top: 40px;
 }
